@@ -1,0 +1,10 @@
+{% extends "page.html" %}
+{% block body %}
+
+<div class="block1">
+    <h1> Hi there! {{ name }}</h1>
+    <h2>Try visiting this state: </h2>
+    <p>{{ state }}</p>
+    <img src = "/static/{{ state }}.jpg">
+</div>
+{% endblock %}
