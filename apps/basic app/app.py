@@ -26,7 +26,7 @@ def first(name):
     rand = randint(0,len(states)-1)
     state=states[rand]
     print (state)
-    return render_template("data.html",name = name,state = state)
+    return render_template("random_state_data.html",name = name,state = state)
 
 if __name__=="__main__":
     app.run(port=80) 
