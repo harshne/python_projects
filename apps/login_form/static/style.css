@@ -1,0 +1,13 @@
+input {
+    text-align: center;
+    align-content: center;
+    background-color: #ECF0F1;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+}
+btn{
+    align-self: center;
+}
